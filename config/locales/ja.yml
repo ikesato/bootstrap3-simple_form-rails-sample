@@ -1,0 +1,11 @@
+ja:
+  posts:
+    index:
+      title: 'ほげ一覧'
+    edit:
+      title: 'ほげ編集'
+    show:
+      title: 'ほげ情報'
+    new:
+      title: 'ほげ作成'
+
