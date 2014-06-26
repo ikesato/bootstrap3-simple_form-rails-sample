@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+a.btn-primary, a.btn-danger, a.btn-success,
+a.btn-info, a.btn-warning, a.btn-danger {
+  color: #fff;
+}
