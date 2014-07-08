@@ -1,11 +1,11 @@
-bootstrap3-rails + simple_form プロジェクト作成手順
-===================================================
+twitter-bootstrap-rails + simple_form プロジェクト作成手順
+==========================================================
 
-この手順は rails に bootstrap3-rails と simple_form を適用する手順です。
+この手順は rails に twitter-bootstrap-rails と simple_form を適用する手順です。
 各バージョンは以下を使用しています。
 
 - Rails 4.1.1
-- twitter-bootstrap3-rails 3.2.7.1
+- twitter-bootstrap-rails 3.1.1  (bootstrap3 branch)
 - simple_form 3.1.0.rc1
 
 
@@ -22,13 +22,13 @@ bootstrap3-rails + simple_form プロジェクト作成手順
  $ rails new bootstrap3-simpleform-sample
  ````````````````````````````````````````
 
-3. bootstrap3-rails と simple_form をインストール
+3. bootstrap-rails と simple_form をインストール
 
  以下を Gemfile に追加して bundle を実行する
  ```````````````````````````````````````````````````````````````````````````````````````
  gem "therubyracer"
  gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
- gem "twitter-bootstrap3-rails"
+ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => "bootstrap3"
  gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form'
  ```````````````````````````````````````````````````````````````````````````````````````
 
